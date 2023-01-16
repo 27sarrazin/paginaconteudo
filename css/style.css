@@ -1,0 +1,74 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    overflow-x: hidden;
+}
+.topo2{
+    font-size: 70px;
+}
+.topo{
+    border-bottom:10px solid #ffaf40;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color:#4b4b4b;
+    padding: 8px;
+
+}
+footer{
+    color: white;
+    background-color:#4b4b4b;
+    padding: 40px;
+}
+
+main{
+    margin: auto;
+    text-align: justify;
+    max-width: 780px;
+    
+
+}
+p{
+    color: #585c5f;
+    font-size: 20px;
+}
+span{
+    color:#bdc3c7;
+}
+img{
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+hr{
+    margin-top: 25px;
+
+}
+h3{
+    color: #f5a434;
+}
+.moedas{
+    width: 600px;
+    height: 400px;
+
+}
+small{
+    margin-top: 500px;
+}
+.geladeira{
+    width: 600px;
+    height: 400px;
+}
+ol{
+    list-style-position:inside;
+    
+}
+.lista{
+    font-size: 40px;
+    font-weight: bolder;
+
+}

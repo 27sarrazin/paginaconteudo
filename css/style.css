@@ -6,69 +6,71 @@
 body,html{
     overflow-x: hidden;
 }
-.topo2{
-    font-size: 70px;
-}
-.topo{
-    border-bottom:10px solid #ffaf40;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    background-color:#4b4b4b;
-    padding: 8px;
-
-}
-footer{
-    color: white;
-    background-color:#4b4b4b;
-    padding: 40px;
-}
-
 main{
+    background-color: white;
     margin: auto;
-    text-align: justify;
-    max-width: 780px;
-    
+    min-width: 320px;
+    max-width:800px;
+    padding: 20px;
 
 }
 p{
-    color: #585c5f;
     font-size: 20px;
+    text-align: justify;
+    color: #585c5f;
+    padding: 20px;
+    
+    
 }
 span{
     color:#bdc3c7;
+    margin-left: 50px;
 }
-img{
-    margin-top: 20px;
-    margin-right: 10px;
-    
+picture img{
+    margin: auto;
+    display: block;
 }
+
 hr{
     margin-top: 25px;
 
 }
-h3{
-    color: #f5a434;
-}
 .moedas{
-    width: 600px;
-    height: 400px;
-
+    max-width: 95%;
 }
+.energia{
+    padding-top: 1px;
+    color: #ffaf40;
+    
+}
+color{
+    color:#585c5f;
+}
+
 small{
-    margin-top: 500px;
+    margin-left: 19px;
+}
+
+.carol{
+    margin-left: 50px;
 }
 .geladeira{
-    width: 600px;
-    height: 400px;
+    height: 15%;
+    max-width: 95%;
 }
 ol{
     list-style-position:inside;
     
 }
 .lista{
-    font-size: 40px;
+    margin-left: 30px;
+    font-size: 30px;
     font-weight: bolder;
 
+}
+footer{
+    color: white;
+    background-color:#4b4b4b;
+    padding: 40px;
+    
 }
